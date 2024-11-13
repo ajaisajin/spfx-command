@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "command-bar-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/commandBar/CommandBarCommandSet.js",
+          "manifest": "./src/extensions/commandBar/CommandBarCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CommandBarCommandSetStrings": "lib/extensions/commandBar/loc/{locale}.js"
+  }
+}

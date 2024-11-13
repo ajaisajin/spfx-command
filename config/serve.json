@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mironconst.sharepoint.com/sites/ProjectProcessDevelopment/Lists/Projects/AllItems.aspx",
+      "customActions": {
+        "f1a03efe-4b09-404c-b701-2ae2a59e45cb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "commandBar": {
+      "pageUrl": "https://mironconst.sharepoint.com/sites/ProjectProcessDevelopment/Lists/Projects/AllItems.aspx",
+      "customActions": {
+        "f1a03efe-4b09-404c-b701-2ae2a59e45cb": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
